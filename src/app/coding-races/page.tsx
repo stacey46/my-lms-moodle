@@ -1,8 +1,16 @@
-export default function CodingRacesPage() {
+import React from 'react';
+
+const CodingRacesPage = () => {
   return (
-    <div>
-      <h1>Coding Races</h1>
-      <p>This page is not yet finished.</p>
+    <div className="max-w-2xl mx-auto text-center py-20">
+      <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
+        Coding Races
+      </h1>
+      <p className="text-xl text-gray-600 dark:text-gray-300">
+        Still Under Construction
+      </p>
     </div>
   );
-}
+};
+
+export default CodingRacesPage;
